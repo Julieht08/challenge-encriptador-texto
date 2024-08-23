@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./styles/style.css">
+    <link rel="shortcut icon" href="./assets/LogitoHead.jpg">
+    <title>Encriptador de texto</title>
+</head>
+<body>
+    <header class="encabezado">
+        <img src="./assets/Logo.png" alt="Logo Alura" class="logo-header">
+    </header>
+    <main class="main-elementos">
+        <section1 class="seccion1">
+            <textarea type="text" id="texto" placeholder="Ingrese el texto aqui..." class="texto-a-encriptar" autocomplete="off" rows="30"></textarea>
+            <div class="informacion">
+                <img src="./assets/Group.png" alt="Imagen precaución">
+                <p class="alerta">
+                    Solo letras minúsculas y sin acentos...
+                </p>
+            </div>
+            <div class="contenedor-botones">
+                <button id="botones" class="boton-encriptar" onclick="encriptar()">Encriptar</button>
+                <button id="botones" class="boton-desencriptar" onclick="desencriptar()">Desencriptar</button>  
+            </div>
+        </section1>
+        <section2 class="seccion2">
+            <textarea type="text"class="mensaje" id="mensajeEncriptado" rows="30"></textarea>
+            <div class="parrafos" id="parrafo">
+                <p class="parrafo-1">
+                    Ningún mensaje fue encontrado
+                </p>
+                <p>
+                    Ingresa el texto que desees encriptar o desencriptar.
+                </p>
+            </div>
+            <div class="copiar">
+                <button id="botones" class="boton-copiar" onclick="botonCopiar()">Copiar</button>
+            </div>
+        </section2>
+    </main>
+    <footer class="pie-de-pagina">
+        <div class="datos-autor">
+            <P>By: Jeydent Julieht Martínez Jiménez</P>
+            <p>Estudiante de Ingeniería de Sistemas</p>
+        </div>
+        <div class="enlaces">
+            <img src="./assets/github.png" alt="Logo de GitHub"> 
+            <a class="links" href="https://github.com/Julieht08">GitHub</a>
+            <img src="./assets/linkedin.png" alt="Logo de Linkedin"> 
+            <a class="links" href="https://linkedin.com/in/julieht-martínez">Linkedin</a>
+        </div>
+    </footer>
+<script src="app.js"></script> <!--<script src="app.js"></script> === para que pueda funcionar en GitHub se 
+trabaja sin la barra inclinada-->
+</body>
+</html>
