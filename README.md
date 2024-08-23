@@ -28,7 +28,7 @@ Además, de que para celulares y tablets, el diseño del encriptador presenta un
 5. Botón para copiar el texto: con este botón, se copia el texto encriptado o desencriptado al portapapeles.
 
 ## :iphone: Acceso al proyecto: 
-El enlace para poder ingresar a la página del encriptador de texto, es: [enlace página encriptador](https://julieht08.github.io/challenge-encriptador/)
+El enlace para poder ingresar a la página del encriptador de texto, es: [enlace página encriptador](https://julieht08.github.io/challenge-encriptador-texto/)
 
 ## :white_check_mark: Estado del proyecto:
 Proyecto finalizado, con posibilidad de ajustes...
